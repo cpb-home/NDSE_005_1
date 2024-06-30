@@ -1,0 +1,1 @@
+export const weatherGISApiKey = '56b30cb255.3443075';
