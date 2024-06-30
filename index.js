@@ -26,13 +26,9 @@ const accessKey = 'e29606a5-79be-4b29-a9ae-c02ca662c25f';
 const headers = {
     'X-Yandex-Weather-Key': accessKey
 };
-/*
-fetch('https://api.weather.yandex.ru/v2/forecast?lat=52.37125&lon=4.89388', { headers })
-    .then(response => response.json())
-    .then(json => console.log(json));*/
+
 
 console.log('Укажите город: Москва, Казань или Екатеринбург');
-
 getUserReply();
 
 async function getUserReply() {
